@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comp"
+    android:orientation="vertical"
+    tools:context=".compact">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        app:srcCompat="@drawable/c" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="Person's Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="#17202A  "
+        android:textColorHint="#ECF0F1" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Compalint"
+        android:inputType="textMultiLine"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#17202A  "
+        android:textColorHint="#ECF0F1" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="Message to send"
+        android:inputType="phone"
+        android:paddingLeft="10dp"
+        android:textColor="#17202A  "
+        android:textColorHint="#ECF0F1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape"
+        android:text="Send"
+        android:textColor="#ECF0F1" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape1"
+        android:text="View Complaints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape1"
+            android:text="Current Location" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape1"
+            android:text=" LOCATION" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/round"
+        android:text="D"
+        android:textColor="#6E2C00"
+        android:textSize="24sp" />
+
+</LinearLayout>
